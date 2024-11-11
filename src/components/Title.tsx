@@ -1,3 +1,3 @@
-export default function Title(){
-    return <h1>Uaaaaau</h1>
+export default function Title({children}) {
+  return <h1 className="text-xl font-bold my-2 text-center">{children}</h1>;
 }
